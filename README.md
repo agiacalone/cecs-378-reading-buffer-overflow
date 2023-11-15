@@ -15,7 +15,7 @@ Answer the following questions from the Chapter 10 reading from your textbook. B
 
 6. Describe how a global data area overflow attack is implemented.
 
-7. Rewrite the program shown below so that it is no longer vulnerable to a buffer overflow.
+7. Rewrite the program shown below so that it is no longer vulnerable to a buffer overflow. Don’t use any ‘safe’ libraries in your solution.
 
 ``` C
 int main ( int argc , char * argv []) {
@@ -31,7 +31,7 @@ int main ( int argc , char * argv []) {
 
 ```
 
-8. Rewrite the function shown below so that it is no longer vulnerable to a stack buffer overflow.
+8. Rewrite the function shown below so that it is no longer vulnerable to a stack buffer overflow. Don’t use any ‘safe’ libraries in your solution.
 ``` C
 void gctinp ( char * inp , int siz )
 {
@@ -56,8 +56,7 @@ int main ( int argc , char * argv [])
 }
 ```
 
-9. Rewrite the two functions shown below so they are no longer vulnerable to a buffer overflow
-attack.
+9. Rewrite the two functions shown below so they are no longer vulnerable to a buffer overflow attack. Don’t use any ‘safe’ libraries in your solution.
 ``` C
 int copy_buf ( char *to , int pos , char * from , int len )
 {
@@ -77,7 +76,7 @@ short read_chunk ( FILE fil , char * to )
 }
 ```
 
-10. Rewrite the program shown below so that it is no longer vulnerable to a heap buffer overflow.
+10. Rewrite the program shown below so that it is no longer vulnerable to a heap buffer overflow. Don’t use any ‘safe’ libraries in your solution.
 ``` C
 /* record type to allocate on heap */
 typedef struct chunk {
