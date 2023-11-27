@@ -1,7 +1,7 @@
 # CECS 378 Reading Assignment: Buffer Overflow
 
 ### Assignment Description
-Answer the following questions from the Chapter 10 reading from your textbook. Be through and complete with your answers. You may work on these questions with a partner (no more than two working together), but **both** students must submit the document individually on Beachboard Dropbox along with both of your names on each submission.
+Answer the following questions from the Chapter 10 reading from your textbook. Be through and complete with your answers. You may work on these questions with a partner (no more than two working together), but **both** students must submit the document individually along with both of your names on each submission in their own repositories.
 
 1. Define *buffer overflow*.
 
