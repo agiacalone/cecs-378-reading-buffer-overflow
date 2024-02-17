@@ -31,6 +31,7 @@ Answer the following questions from the Chapter 10 reading from your textbook. B
     ```
 
 8. Rewrite the function shown below so that it is no longer vulnerable to a stack buffer overflow. Don’t use any ‘safe’ libraries in your solution.
+ 
     ``` C
     void gctinp ( char * inp , int siz )
     {
@@ -56,6 +57,7 @@ Answer the following questions from the Chapter 10 reading from your textbook. B
     ```
 
 9. Rewrite the two functions shown below so they are no longer vulnerable to a buffer overflow attack. Don’t use any ‘safe’ libraries in your solution.
+  
     ``` C
     int copy_buf ( char *to , int pos , char * from , int len )
     {
